@@ -67,6 +67,19 @@
     transition: color .2s;
   }
   .nav-links a:hover { color: var(--accent); }
+  .lang-switcher {
+    display: flex; align-items: center; gap: .4rem;
+    font-family: var(--mono); font-size: .72rem;
+  }
+  .lang-btn {
+    padding: .3rem .6rem; border-radius: 3px; text-decoration: none;
+    letter-spacing: .08em; transition: all .2s;
+    border: 1px solid var(--border); color: var(--muted);
+  }
+  .lang-btn.active {
+    background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700;
+  }
+  .lang-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
 
   /* ── HERO ── */
   #hero {
@@ -398,6 +411,10 @@
     <li><a href="#education">Formation</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+  <div class="lang-switcher">
+    <a href="https://amir-rezgui.github.io" class="lang-btn active">FR</a>
+    <a href="https://amir-rezgui.github.io/index_en.html" class="lang-btn">EN</a>
+  </div>
 </nav>
 
 <!-- HERO -->
