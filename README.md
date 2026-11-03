@@ -1,4 +1,4 @@
-# Amir Rezgui — Personal Portfolio
+# Amir Rezgui - Personal Portfolio
 
 Live site: [https://amir-rezgui.github.io/](https://amir-rezgui.github.io/)
 
