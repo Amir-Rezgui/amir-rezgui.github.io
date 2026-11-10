@@ -1,7 +1,17 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="light">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function() {
+        const saved = localStorage.getItem('portfolio-theme');
+        if (saved === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -73,8 +83,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-Hx6B3Knl.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-ByaBC0KZ.css">
+    <script type="module" crossorigin src="/assets/index-C3p2icYy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ChZKgE2Y.css">
   </head>
   <body>
     <div id="root"></div>
